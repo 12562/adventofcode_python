@@ -49,7 +49,7 @@ def fall_floor(start, threshold, grid):
           coords = (coords[0] + 1, coords[1] + 1)
        else:
           grid.add(coords)
-          return True
+          return coords
           
 rock_struct = set()
 with open(file) as f:
